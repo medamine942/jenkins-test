@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/TON-USERNAME/TON-REPO.git'
+                git branch: 'main', url: 'https://github.com/medamine942/jenkins-test.git'
             }
         }
 
